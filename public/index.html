@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sreejith | 3D Full Stack House Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-glow"></div>
+
+  <header class="navbar">
+    <div class="logo">SREE<span>JITH</span></div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#backend">Backend</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="home" class="hero">
+    <section class="hero-text">
+      <p class="badge">3D Animation Portfolio</p>
+      <h1>Hi, I'm <span>Sreejith Suresh Kumar</span></h1>
+      <h2>Full Stack Developer & UI/UX Designer</h2>
+      <p class="desc">
+        My portfolio is designed like a 3D house. The beautiful front view represents frontend, while the strong underground foundation represents backend, APIs and database.
+      </p>
+      <div class="buttons">
+        <a href="#projects" class="btn primary">View Projects</a>
+        <a href="#contact" class="btn secondary">Contact Me</a>
+      </div>
+    </section>
+
+    <section class="house-stage" aria-label="3D house portfolio model">
+      <div class="scene">
+        <div class="house" id="house3d">
+          <div class="roof">FRONTEND UI</div>
+          <div class="body">
+            <div class="window left">HTML<br>CSS</div>
+            <div class="door">ABOUT</div>
+            <div class="window right">JS<br>REACT</div>
+          </div>
+          <div class="base">
+            <span>BACKEND FOUNDATION</span>
+            <div class="base-items">
+              <b>Node</b><b>API</b><b>DB</b><b>Auth</b>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="hint">Move mouse / touch the house</p>
+    </section>
+  </main>
+
+  <section class="meaning">
+    <h2>Portfolio House Meaning</h2>
+    <div class="meaning-grid">
+      <article><h3>🏠 Front View</h3><p>Frontend design, animations, layout, colors and user experience.</p></article>
+      <article><h3>🚪 Door</h3><p>About Me section, entry point to know my developer journey.</p></article>
+      <article><h3>🪟 Rooms</h3><p>Skills and projects displayed like different rooms inside the house.</p></article>
+      <article><h3>🧱 Foundation</h3><p>Backend, database, APIs, authentication and server logic.</p></article>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Skills Room</h2>
+    <div class="cards">
+      <div class="card">HTML</div><div class="card">CSS</div><div class="card">JavaScript</div>
+      <div class="card">React</div><div class="card">UI/UX</div><div class="card">Node.js</div>
+      <div class="card">Express</div><div class="card">MongoDB</div><div class="card">Firebase</div>
+    </div>
+  </section>
+
+  <section id="backend" class="section backend-box">
+    <h2>Backend Basement</h2>
+    <p>This basement shows how the backend supports the website like a strong house foundation.</p>
+    <div class="flow">
+      <span>User Form</span><b>→</b><span>Express API</span><b>→</b><span>MongoDB</span><b>→</b><span>Response</span>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Project Rooms</h2>
+    <div class="project-grid">
+      <div class="project"><h3>AI Object Detection</h3><p>TensorFlow based human/object detection web app.</p><a href="#">Add GitHub Link</a></div>
+      <div class="project"><h3>Smart Learning Hub</h3><p>HTML CSS JS learning app for students.</p><a href="#">Add GitHub Link</a></div>
+      <div class="project"><h3>College App</h3><p>Events, updates and student information platform.</p><a href="#">Add GitHub Link</a></div>
+      <div class="project"><h3>E-Commerce Website</h3><p>Product cards, cart UI and responsive frontend.</p><a href="#">Add GitHub Link</a></div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact-section">
+    <h2>Contact Rooftop</h2>
+    <form id="contactForm" class="contact-form">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+      <p id="formStatus"></p>
+    </form>
+    <div class="socials">
+      <a href="mailto:sreejithsureshkumar7@gmail.com">Email</a>
+      <a href="https://github.com/Sreejithsureshkumar7-sketch" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/sreejith-sureshkumar-920667405" target="_blank">LinkedIn</a>
+    </div>
+  </section>
+
+  <footer>© 2026 Sreejith Suresh Kumar | Full Stack House Portfolio</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

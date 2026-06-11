@@ -1,0 +1,16 @@
+{
+  "name": "fullstack-house-portfolio",
+  "version": "1.0.0",
+  "description": "3D House Full Stack Developer Portfolio",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node server/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.2"
+  }
+}
